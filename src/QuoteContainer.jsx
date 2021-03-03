@@ -52,6 +52,7 @@ const QuoteContainer = () => {
                 setAuthor("Error 404");
                 setQuote("woops! something went wrong");
             });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [quote]);
     return (
         <>
